@@ -46,6 +46,8 @@ plt.axis("off")
 plt.title("Tanzania")
 plt.xlabel("Longitude")
 plt.ylabel("Latitude")
-plt.show()
+
 
 plt.savefig("Tanzania_map.png", dpi=300, bbox_inches="tight")
+
+plt.show()
