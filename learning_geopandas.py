@@ -10,11 +10,11 @@ highlight_regions = ["Mara", "Morogoro", "Lindi", "Mtwara"]
 
 
 # Load districts map dataset
-gdf1 = gpd.read_file("TZAmap_districts.shp")
+gdf1 = gpd.read_file("Maps/TZAmap_districts.shp")
 
 
 # Load districts map dataset
-gdf2 = gpd.read_file("TZAmap_regions.shp")
+gdf2 = gpd.read_file("Maps/TZAmap_regions.shp")
 
 # Filter the selected regions
 gdf_highlight = gdf2[gdf2["shapeName"].isin(highlight_regions)]
