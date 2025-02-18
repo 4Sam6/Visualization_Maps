@@ -43,6 +43,6 @@ plt.xlabel("Longitude")
 plt.ylabel("Latitude")
 
 
-plt.savefig("Tanzania_map.png", dpi=300, bbox_inches="tight")
+plt.savefig("Visuals/Tanzania_regions.png", dpi=300, bbox_inches="tight")
 
 plt.show()

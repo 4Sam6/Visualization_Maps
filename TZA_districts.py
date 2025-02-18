@@ -36,7 +36,7 @@ plt.axis("off")
 # Label graph
 plt.title("Districts in Mara")
 
-plt.savefig("region_districts.png", dpi=300, bbox_inches="tight")
+plt.savefig("Visuals/region_districts.png", dpi=300, bbox_inches="tight")
 
 # Show the plot
 plt.show()
