@@ -33,12 +33,6 @@ plt.axis("off")
 # Label graph
 plt.title("Wards in Tarime")
 
-# Label each ward by plotting the ward name at the centre of each ward
-for idx, row in wards.iterrows():  # Iterate through the rows of the GeoDataFrame
-    # Get the centroid of each district
-    centroid = row.geometry.centroid
-    # Add the district name at the centroid's coordinates
-    ax.text(centroid.x, centroid.y, row["shapeName"], fontsize=8, ha="center", color="black")  # Add the label
 
 
 plt.savefig("Visuals/all_Wards.png", dpi=300, bbox_inches="tight")
